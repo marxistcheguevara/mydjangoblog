@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+
+
+
+{% block content %}
+
+{% if category %}
+{% for cat in category %}
+
+<div class="well">{{ cat.name }} : {{ cat.name }} kateqoriyasına aid yazılar</div>
+
+{% endfor %}
+
+{% else %}
+
+<div class="well">Nothing to show :-(</div>
+
+{% endif }
+
+{% end block %}

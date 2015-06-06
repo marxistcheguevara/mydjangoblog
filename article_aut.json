@@ -1,0 +1,119 @@
+[
+    {
+        "pk": 1, 
+        "model": "article.article", 
+        "fields": {
+            "body": "The four CRUD operations\r\n\r\nLet's look at the Web application in terms of CRUD operations.\r\nCreating widgets\r\n\r\nNow that initial setup is complete, you need to write code that manages the widgets. Start with the first of the four CRUD operations: create. This code must save user input as a widget in the database.\r\n\r\nStart by creating an HTML form with fields corresponding to the structure of the student table. Create a view file called student_add.php in the .\\system\\application\\views\\ folder, shown in Listing 5.\r\nListing 5. Generating HTML form fields for the create operation", 
+            "thumbnail": "", 
+            "pub_date": "2015-02-10T20:26:22Z", 
+            "likes": 7, 
+            "title": "Test 1"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "article.article", 
+        "fields": {
+            "body": "\r\nHello Ziya and your family,\r\n\r\nWe are two french guys who have begun a long travel from the Western of France (Quimper if ever you know) in order to join Beijing, the capital of China, with our bikes! The project is called \"Quimper P\u00e9kin \u00e0 V\u00e9lo\" (in French) and we also have created a website (www.quimperpekinavelo.com) and a facebook page (Facebook.com/Quimperpekinavelo).\r\n\r\nWe should arrive around Baku for the 20th or 21st of February 2015.\r\n\r\nWe wonder wether you would be available and you might host us for 1 or 2 nights. But if is too difficult for you to host two guys we can understand obviously, just please let us know...\r\n\r\nWe are both engineers in sustainable buildings and during our trip, we want to study old architecture and especially old houses of the countries which we travel trough in order to know the traditionnal skills and know-how.\r\n\r\nWe thank you for your attention to our message.\r\n\r\nIf ever we don't respond cause we don't often have internet access, here is our phone number if ever you can send an sms or via whatsapp: 0033 6 47 42 68 96 (Vincent).\r\n\r\nRegards,\r\n\r\nSimon and Vincent\r\n", 
+            "thumbnail": "", 
+            "pub_date": "2015-02-10T20:27:01Z", 
+            "likes": 7, 
+            "title": "Test 2"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "article.article", 
+        "fields": {
+            "body": "Nous sommes deux cyclo-touristes partis de Quimper le 13 Septembre 2014 et en partance pour P\u00e9kin. Ce voyage devrait durer un an et nous amener \u00e0 traverser une vingtaine de pays. Lors de ce voyage, nous tentons d'\u00e9tudier l'architecture traditionnelle et ancienne des r\u00e9gions travers\u00e9es, travaillant auparavant dans le secteur de la construction durable. Nous dormons de temps en temps sous la tente mais ce que nous pr\u00e9f\u00e9rons c'est d'\u00eatre h\u00e9berg\u00e9s chez des h\u00f4tes et d'entamer la discussion avec eux, le temps d'une soir\u00e9e. Alors si en plus, le logement repr\u00e9sente un t\u00e9moignage du patrimoine architectural, c'est l'id\u00e9al! A bient\u00f4t nous l'esp\u00e9rons si vous vous trouvez sur notre chemin. Simon & Vincent, quimperpekinavelo.com", 
+            "thumbnail": "", 
+            "pub_date": "2015-02-10T20:27:24Z", 
+            "likes": 0, 
+            "title": "Test 3"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "article.article", 
+        "fields": {
+            "body": "7) Android Virtual Device (AVD) add\r\n\r\nCreate a new Android Virtual Device for your access. Click Create button to add new AVD on your android emulator. NoteClick tools button to launch AVD creation window. If it is not showing maximize the current windows and get the tools button.", 
+            "thumbnail": "", 
+            "pub_date": "2015-11-01T20:00:00Z", 
+            "likes": 2, 
+            "title": "test 4"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "article.article", 
+        "fields": {
+            "body": "7) Android Virtual Device (AVD) add\r\n\r\nCreate a new Android Virtual Device for your access. Click Create button to add new AVD on your android emulator. NoteClick tools button to launch AVD creation window. If it is not showing maximize the current windows and get the tools button.", 
+            "thumbnail": "", 
+            "pub_date": "2015-11-01T20:00:00Z", 
+            "likes": 0, 
+            "title": "test 4"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "article.article", 
+        "fields": {
+            "body": "test article with image. it is really exciting what gonna happen\r\n\r\ntest article with image. it is really exciting what gonna happen\r\n\r\ntest article with image. it is really exciting what gonna happen\r\n\r\ntest article with image. it is really exciting what gonna happen", 
+            "thumbnail": "uploaded_files/1423870645_35_aguerosguy.jpg", 
+            "pub_date": "2015-12-01T20:00:00Z", 
+            "likes": 0, 
+            "title": "Test article with image"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "article.article", 
+        "fields": {
+            "body": "this is another article with image\r\nfuck it nick i think i ll keep it", 
+            "thumbnail": "uploaded_files/1423871017_55_deve.jpg", 
+            "pub_date": "2015-11-01T20:00:00Z", 
+            "likes": 0, 
+            "title": "Another article with image"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "bu yazi ibm saytindan ogurlanib. adam hec olmasa (c) zad yazar", 
+            "article": 1, 
+            "pub_date": "2015-02-13T13:50:49.300Z", 
+            "name": "ibm saytindan"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "ibretlik paylasim olmus kardes, subhanallah", 
+            "article": 1, 
+            "pub_date": "2015-02-13T13:59:05.745Z", 
+            "name": "mahmud"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "hic de ibretlik degil..\r\nsdfsg\r\nv\r\nsdgs\r\nh\r\nsfjh\r\nsfd\r\ndfh\r\ndf\r\nhjdjh\r\ndh\r\nd\r\n", 
+            "article": 1, 
+            "pub_date": "2015-02-13T13:59:45.117Z", 
+            "name": "murad"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "olar olmazi var, d\u00fc\u015f\u0259r d\u00fc\u015fm\u0259zi var.", 
+            "article": 2, 
+            "pub_date": "2015-02-13T16:07:04.506Z", 
+            "name": "david"
+        }
+    }
+]

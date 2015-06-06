@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>
+	
+			{% block title %} Əsas şablon {% endblock %}
+	
+	</title>
+	<link rel="stylesheet" type="text/css" href="{% static "assets/css/main.css" %}">
+	<script src="{% static "assets/js/jquery-2.0.0.min.js" %}"></script>
+		<script src="{% static "assets/js/ajax.js" %}"></script>
+</head>
+
+<body>
+		<div class="container-fluid">
+		
+		<div class="row"><legend>Əsas Şablon</legend></div>
+		
+		<div class="row">
+				<div class="col-sm-4">
+				<div class="well">
+									 
+					<ul class="nav nav-pills nav-stacked">
+  						<li><a href="/articles/all">Yazılar</a></li>	
+						<li><a href="/admin/">İdarəçi</a></li>	
+						<li><a href="/articles/create">Yeni Yazı</a></li>
+					</ul>
+					
+					{% csrf_token %}
+					<input type="text" id="search" name="search" />
+                    
+					<ul id ="search-results">
+					
+					</ul>
+					
+					
+					
+					</div>
+				</div>
+		
+				<div class="col-sm-6">
+				
+				{% block content %} This is the content area {% endblock %}
+				
+        <img src="{% static "assets/images/python-logo.png" %}" class="img-rounded" />
+        
+ 
+      
+ 
+				
+				
+						
+				
+				</div>
+		</div>
+</div>
+
+</div>
+
+</body>
+</html>

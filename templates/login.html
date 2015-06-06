@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+
+	{% block content %}
+
+
+		{% if form.errors %}
+				<div class="alert alert-danger" role="alert">İstifadəçi adı, yaxud parol səhv daxil olunub!</div>
+
+		{% endif %}
+
+
+	<form action="/accounts/auth/" method="post"> {% csrf_token %}
+
+			<label for="username">İstifadəçi adı</label>
+			<input type="text" name="username" value="" id="İstifadəçi adı" />
+			<label for="password">Parol</label>
+			<input type="password" name="password" value="" id="Parol">
+			
+			<input type="submit" value="Giriş" />
+		</form>
+
+
+	{% endblock %}
+	
+	

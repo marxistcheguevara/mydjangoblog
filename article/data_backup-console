@@ -1,0 +1,7 @@
+python manage.py dumpdata article --indent=4 > article.json
+
+cat article.json 
+
+python manage.py reset article
+
+python manage.py loaddata article.json

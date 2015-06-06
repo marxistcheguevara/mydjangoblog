@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+				{% block sidebar %} 
+					<ul class="nav nav-pills nav-stacked">
+							<li><a href="/articles/all">Bütün yazılar</a></li>	
+							<li><a href="/articles/create">Yeni yazı</a></li>	
+					</ul>
+					<h3>Axtar</h3>
+					{% csrf_token %}
+					<input type="text" id="search" name="search" />
+                    
+					<ul id ="search-results">
+					
+					</ul>
+					
+					
+					{% endblock %}
+	
+
+
+{% block content %}
+<p class="navbar-text navbar-right">Language is:<a href="#" class="navbar-link">{{ language }}</a></p><br>
+<p class="navbar-text navbar-right">Session language is:<a href="#" class="navbar-link">{{ session_language }}</a></p>
+
+<em>{{articles.count}} yazı var</em>
+{% if articles.count > 0 %}
+
+{% for article in articles %}
+
+
+<div class="well">
+ <h2><small><a href="/articles/get/{{ article.id }}/">{{ article.title }}</a></small></h2>
+ <em><p>Müəllif: {{ author.name }}</p>
+ <p>Bölmə: {{ category.name }}</p></em>
+{% if article.thumbnail %}
+<img src="/static/assets/{{ article.thumbnail }}" class="img-circle" width="75" /> 
+{% endif %}
+<p>{{ article.body|lower|truncatewords:"10" }}</p>
+<button class="btn btn-primary" type="button">
+  Bəyənilmə <span class="badge">{{ article.likes }}</span>
+</button>
+
+<button class="btn btn-primary" type="button">
+  Rəylər <span class="badge">{{article.comment_set.count}}</span>
+</button>
+</div>
+{% endfor %}
+
+{% else %}
+
+<p>göstərməli bir şey tapılmadı</p>
+
+{% endif %}
+
+{% endblock %}

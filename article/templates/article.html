@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block sidebar %} 
+
+<ul>
+	<li><a href="/articles/all">Yazılar</a></li>	
+</ul>
+
+{% endblock %}
+
+{% block content %}
+<h1>{{ article.title }}</h1>
+<p>{{ article.body }}</p>
+{% if article.thumbnail %}
+<img src="/static/assets/{{ article.thumbnail }}" class="img-rounded" width="200" /> 
+{% endif %}
+
+<p></p>
+<p></p>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">{{ article.likes }} dəfə bəyənilib</button>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="/articles/like/{{ article.id }}" ><button type="button" class="btn btn-default">bəyən</button></a>
+  </div>
+</div>
+
+{%if article.comment_set.count > 0 %} 
+
+<br><br><br>
+<strong><em>{{article.comment_set.count}} rəy  yazılıb</em></strong>
+<p>______________________________________________________________________________________</p>
+{% for c in article.comment_set.all %}
+<p><strong>{{ c.name }}</strong>: {{c.body}}</p>
+<p>______________________________________________________________________________________</p>
+{% endfor %}
+
+{% else %}
+<em>rəy yoxdu</em>
+{% endif %}
+<p><a href="/articles/add_comment/{{ article.id }}" >rəy bildir </a></p>
+{% endblock %}

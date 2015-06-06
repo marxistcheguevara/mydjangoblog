@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+		<h2>İstifadəçi adı, yaxud parol səhv daxil olunub!</h2>
+		<p><a href='/accounts/login/'>Giriş</a></p>
+		
+{% endblock %}

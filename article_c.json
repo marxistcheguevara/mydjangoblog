@@ -1,0 +1,138 @@
+[
+    {
+        "pk": 1, 
+        "model": "article.article", 
+        "fields": {
+            "body": "The four CRUD operations\r\n\r\nLet's look at the Web application in terms of CRUD operations.\r\nCreating widgets\r\n\r\nNow that initial setup is complete, you need to write code that manages the widgets. Start with the first of the four CRUD operations: create. This code must save user input as a widget in the database.\r\n\r\nStart by creating an HTML form with fields corresponding to the structure of the student table. Create a view file called student_add.php in the .\\system\\application\\views\\ folder, shown in Listing 5.\r\nListing 5. Generating HTML form fields for the create operation", 
+            "author": "", 
+            "title": "Test 1", 
+            "likes": 7, 
+            "pub_date": "2015-02-10T20:26:22Z", 
+            "thumbnail": ""
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "article.article", 
+        "fields": {
+            "body": "\r\nHello Ziya and your family,\r\n\r\nWe are two french guys who have begun a long travel from the Western of France (Quimper if ever you know) in order to join Beijing, the capital of China, with our bikes! The project is called \"Quimper P\u00e9kin \u00e0 V\u00e9lo\" (in French) and we also have created a website (www.quimperpekinavelo.com) and a facebook page (Facebook.com/Quimperpekinavelo).\r\n\r\nWe should arrive around Baku for the 20th or 21st of February 2015.\r\n\r\nWe wonder wether you would be available and you might host us for 1 or 2 nights. But if is too difficult for you to host two guys we can understand obviously, just please let us know...\r\n\r\nWe are both engineers in sustainable buildings and during our trip, we want to study old architecture and especially old houses of the countries which we travel trough in order to know the traditionnal skills and know-how.\r\n\r\nWe thank you for your attention to our message.\r\n\r\nIf ever we don't respond cause we don't often have internet access, here is our phone number if ever you can send an sms or via whatsapp: 0033 6 47 42 68 96 (Vincent).\r\n\r\nRegards,\r\n\r\nSimon and Vincent\r\n", 
+            "author": "", 
+            "title": "Test 2", 
+            "likes": 7, 
+            "pub_date": "2015-02-10T20:27:01Z", 
+            "thumbnail": ""
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "article.article", 
+        "fields": {
+            "body": "Nous sommes deux cyclo-touristes partis de Quimper le 13 Septembre 2014 et en partance pour P\u00e9kin. Ce voyage devrait durer un an et nous amener \u00e0 traverser une vingtaine de pays. Lors de ce voyage, nous tentons d'\u00e9tudier l'architecture traditionnelle et ancienne des r\u00e9gions travers\u00e9es, travaillant auparavant dans le secteur de la construction durable. Nous dormons de temps en temps sous la tente mais ce que nous pr\u00e9f\u00e9rons c'est d'\u00eatre h\u00e9berg\u00e9s chez des h\u00f4tes et d'entamer la discussion avec eux, le temps d'une soir\u00e9e. Alors si en plus, le logement repr\u00e9sente un t\u00e9moignage du patrimoine architectural, c'est l'id\u00e9al! A bient\u00f4t nous l'esp\u00e9rons si vous vous trouvez sur notre chemin. Simon & Vincent, quimperpekinavelo.com", 
+            "author": "", 
+            "title": "Test 3", 
+            "likes": 0, 
+            "pub_date": "2015-02-10T20:27:24Z", 
+            "thumbnail": ""
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "article.article", 
+        "fields": {
+            "body": "7) Android Virtual Device (AVD) add\r\n\r\nCreate a new Android Virtual Device for your access. Click Create button to add new AVD on your android emulator. NoteClick tools button to launch AVD creation window. If it is not showing maximize the current windows and get the tools button.", 
+            "author": "", 
+            "title": "test 4", 
+            "likes": 2, 
+            "pub_date": "2015-11-01T20:00:00Z", 
+            "thumbnail": ""
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "article.article", 
+        "fields": {
+            "body": "7) Android Virtual Device (AVD) add\r\n\r\nCreate a new Android Virtual Device for your access. Click Create button to add new AVD on your android emulator. NoteClick tools button to launch AVD creation window. If it is not showing maximize the current windows and get the tools button.", 
+            "author": "", 
+            "title": "test 4", 
+            "likes": 0, 
+            "pub_date": "2015-11-01T20:00:00Z", 
+            "thumbnail": ""
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "article.article", 
+        "fields": {
+            "body": "test article with image. it is really exciting what gonna happen\r\n\r\ntest article with image. it is really exciting what gonna happen\r\n\r\ntest article with image. it is really exciting what gonna happen\r\n\r\ntest article with image. it is really exciting what gonna happen", 
+            "author": "Mahmud H\u0259s\u0259nov", 
+            "title": "Test article with image", 
+            "likes": 0, 
+            "pub_date": "2015-12-01T20:00:00Z", 
+            "thumbnail": "uploaded_files/1423870645_35_aguerosguy.jpg"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "article.article", 
+        "fields": {
+            "body": "this is another article with image\r\nfuck it nick i think i ll keep it", 
+            "author": "", 
+            "title": "Another article with image", 
+            "likes": 0, 
+            "pub_date": "2015-11-01T20:00:00Z", 
+            "thumbnail": "uploaded_files/1423871017_55_deve.jpg"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "article.article", 
+        "fields": {
+            "body": "s\u00f6zl\u0259rini paris kommunar\u0131 ejen potyenin (frans\u0131z dilind\u0259) yazd\u0131\u011f\u0131, musiqisini bel\u00e7ikal\u0131 kommunist inc\u0259s\u0259n\u0259t xadimi pyer deqeyterin b\u0259st\u0259l\u0259diyi internasional himni, 150 ildi ki, b\u00fct\u00fcn d\u00fcnyan\u0131n proletarlar\u0131n\u0131n dilind\u0259di. \u0259r\u0259b, fars, ingilis, alman, urdu, yapon, macar, monqol.. m\u00fcxt\u0259lif dill\u0259rd\u0259 oxunsa da, ham\u0131s\u0131n\u0131n m\u00fcraci\u0259t obyekti birdi. ham\u0131s\u0131 z\u0259ncirl\u0259ri q\u0131rma\u011fa, t\u00fcfeylil\u0259rin h\u00f6kmranl\u0131\u011f\u0131ndak\u0131 k\u00f6hn\u0259 nizam\u0131 y\u0131xma\u011fa, yeni d\u00fcnya qurmaq u\u011frunda sonuncu sava\u015fa s\u0259sl\u0259yir.\r\n\r\n\u201cbu \u015f\u0259rqi b\u00fct\u00fcn [\u2026] dill\u0259r\u0259 t\u0259rc\u00fcm\u0259 olunub. [\u2026] hans\u0131 \u00f6lk\u0259d\u0259 olursa-olsun, taleyi onu hara \u00e7\u0259kib apar\u0131rsa-apars\u0131n, \u00f6z \u00f6lk\u0259sind\u0259n \u00e7ox-\u00e7ox uzaqda, dilini bilm\u0259diyi yerl\u0259rd\u0259 d\u0259 proletar internasionalla \u00f6z\u00fcn\u0259 \u00e7oxca yolda\u015f, dost tapa bil\u0259r.\r\n\r\n[\u2026] kommuna \u0259zilmi\u015fdi. ancaq potyenin internasional\u0131 kommunan\u0131 b\u00fct\u00fcn d\u00fcnyaya tan\u0131td\u0131. v\u0259 kommunar ruhu onun say\u0259sind\u0259 \u0259vv\u0259lkind\u0259n d\u0259 canl\u0131d\u0131.\r\n\r\npotye yoxsul ail\u0259d\u0259 do\u011fulmu\u015fdu \u2013 \u00f6mr\u00fc boyu \u0259linin z\u0259hm\u0259tiyl\u0259 ya\u015fad\u0131 [\u2026] proletar kimi v\u0259fat etdi. miras qoydu\u011fu \u0259s\u0259rl\u0259rs\u0259 \u00f6l\u00fcms\u00fczd\u00fc\u201d (v. i. lenin, pravda \u21162, yanvar, 1913)", 
+            "author": "Ziya Bayramov", 
+            "title": "internasional mar\u015f\u0131 (az\u0259rbaycan dilind\u0259)", 
+            "likes": 0, 
+            "pub_date": "2015-12-01T20:00:00Z", 
+            "thumbnail": "uploaded_files/1424037153_69_konst_scrnsht.png"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "bu yazi ibm saytindan ogurlanib. adam hec olmasa (c) zad yazar", 
+            "article": 1, 
+            "pub_date": "2015-02-13T13:50:49.300Z", 
+            "name": "ibm saytindan"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "ibretlik paylasim olmus kardes, subhanallah", 
+            "article": 1, 
+            "pub_date": "2015-02-13T13:59:05.745Z", 
+            "name": "mahmud"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "hic de ibretlik degil..\r\nsdfsg\r\nv\r\nsdgs\r\nh\r\nsfjh\r\nsfd\r\ndfh\r\ndf\r\nhjdjh\r\ndh\r\nd\r\n", 
+            "article": 1, 
+            "pub_date": "2015-02-13T13:59:45.117Z", 
+            "name": "murad"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "article.comment", 
+        "fields": {
+            "body": "olar olmazi var, d\u00fc\u015f\u0259r d\u00fc\u015fm\u0259zi var.", 
+            "article": 2, 
+            "pub_date": "2015-02-13T16:07:04.506Z", 
+            "name": "david"
+        }
+    }
+]
